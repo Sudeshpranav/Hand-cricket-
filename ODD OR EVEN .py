@@ -169,6 +169,6 @@ else:
         if score1>score2 and mat==0:
             print("Computer have scored ",score2)
             print(user," have won the match")
-        else:
+        if score1==score2 and mat==0:
             print("Computer have scored ",score2)
             print("The match is draw")
